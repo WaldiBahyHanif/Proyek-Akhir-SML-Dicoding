@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/299947486106222372
+creation_time: 1779787915218
+experiment_id: '299947486106222372'
+last_update_time: 1779787915218
+lifecycle_stage: active
+name: Breast_Cancer_Tuning_Experiment

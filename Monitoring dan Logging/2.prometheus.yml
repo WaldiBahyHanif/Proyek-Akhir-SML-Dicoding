@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'mlflow-model'
+    static_configs:
+      # Port ini digunakan jika serve model via MLflow atau docker menggunakan port 5001
+      - targets: ['host.docker.internal:5001']
+        # Gunakan 'localhost:5001' jika menjalankan prometheus secara lokal tanpa docker
+
+  - job_name: 'prometheus-exporter'
+    static_configs:
+      # Port 8000 tempat python exporter (3.prometheus_exporter.py) dijalankan
+      - targets: ['host.docker.internal:8000']
+        # Gunakan 'localhost:8000' jika menjalankan prometheus secara lokal tanpa docker
