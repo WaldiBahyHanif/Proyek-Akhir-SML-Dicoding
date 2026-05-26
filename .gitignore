@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# MLflow Local Logs & Artifacts
+mlruns/
+mlartifacts/
+.trash/
+
+# OS generated files
+.DS_Store
+Thumbs.db
