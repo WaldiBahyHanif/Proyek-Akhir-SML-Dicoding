@@ -24,7 +24,7 @@ def main():
     parser.add_argument("--max_depth", type=int, default=10)
     args = parser.parse_args()
 
-    mlflow.set_experiment("Breast_Cancer_CI_Pipeline")
+    # mlflow.set_experiment("Breast_Cancer_CI_Pipeline")
     
     X_train, X_test, y_train, y_test = load_data()
     
