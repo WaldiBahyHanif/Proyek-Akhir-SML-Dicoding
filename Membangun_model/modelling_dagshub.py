@@ -12,8 +12,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 # =========================================================
 # TODO: Ganti USERNAME dan REPO_NAME dengan milik Anda
 # =========================================================
-DAGSHUB_USERNAME = "USERNAME_ANDA"
-DAGSHUB_REPO = "NAMA_REPO_DAGSHUB_ANDA"
+DAGSHUB_USERNAME = "WaldiBahyHanif"
+DAGSHUB_REPO = "Proyek-Akhir-SML-Dicoding"
 
 def init_dagshub():
     # Inisialisasi DagsHub tracking
